@@ -2,7 +2,7 @@ import React from "react";
 import "./Reasons.css";
 import adidas from "../../assets/adidas.png";
 import nb from "../../assets/nb.png";
-import nike from "../../assets/tick.png";
+import nike from "../../assets/nike.png";
 import image1 from "../../assets/image1.png";
 import image2 from "../../assets/image2.png";
 import image3 from "../../assets/image3.png";
