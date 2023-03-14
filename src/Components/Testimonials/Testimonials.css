@@ -1,4 +1,4 @@
-.Testimonials{
+.testimonials{
     display: flex;
     gap: 1rem;
     padding: 0 2rem;
@@ -74,4 +74,41 @@
    width: 1.5rem;
    cursor: pointer;
 }
+@media screen and (max-width:768px) {
+    .testimonials{
+        flex-direction: column;
+
+    }
+    .left_t>:nth-child(2),.left_t:nth-child(3){
+        font-size: xx-large;
+
+    }
+    .right_t{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .right_t>div{
+        position: relative;
+        display: none;
+
+    }
+    .right_t>img{
+        top: 0;
+        right: 0;
+        position: relative;
+        align-self: center;
+
+    }
+    .right_t>:last-child{
+        display: block;
+        bottom: 0;
+        left: 0;
+    }
+
+
+}
+
 
