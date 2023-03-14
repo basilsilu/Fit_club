@@ -1,0 +1,47 @@
+.join {
+  display: flex;
+  padding: 0 2rem;
+  gap: 10rem;
+}
+.left_join {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+.left_join > hr {
+  position: absolute;
+  border: 2px solid var(--orange);
+  border-radius: 20%;
+  margin: -10px 0;
+  width: 10.5rem;
+}
+.left_join > div {
+  display: flex;
+  gap: 1rem;
+}
+.right_join {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.email_container{
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem 2rem;
+}
+.email_container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+}
+::placeholder{
+    color: var(--lightgrayz);
+}
+.btn_join{
+    background-color: var(--orange);
+    color: #fff;
+}
